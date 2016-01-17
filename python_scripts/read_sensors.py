@@ -1,6 +1,6 @@
 #!/user/bin/python2.7
 """
-file: agriduino.py
+file: read_sensors.py
 python version: 2.7
 description:
     This script polls an arduino for info and builds at as a comma delimited data string to write
@@ -10,7 +10,6 @@ description:
 
 import time, datetime
 import csv
-import schedule
 import serial
 
 #Constants
