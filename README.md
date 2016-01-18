@@ -7,7 +7,8 @@ Python code for agriduino plant care system
 * Hardware folder has current fritzing files and partslist.
 
 ## TODO
-Set up web server on Pi which will load data from CSV file and display it graphically and have web interface.  Likely done in php/html/css.  Build tables and charts in plot.ly maybe.  Or I'll check out python graphic libraries.
+* Set up web server on Pi which will load data from CSV file and display it graphically and have web interface.  Likely done in php/html/css.  Build tables and charts in plot.ly maybe.  Or I'll check out python graphic libraries.
+* Migrate from CSV to MySQL database.  Or some such.
 
 ## CRON Jobs currently running
 ```
